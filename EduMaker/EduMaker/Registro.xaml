@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduMaker.Registro">
+
+    <Grid>
+        <Image Source="registro.png" Aspect="AspectFill" Opacity="0.9"/>
+
+        <ScrollView HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Frame BackgroundColor="White" Padding="20" CornerRadius="10" WidthRequest="250" HeightRequest="650" HorizontalOptions="Center" VerticalOptions="Center">
+                <StackLayout Padding="30">
+                    <Image Source="titulo.png" WidthRequest="100" HeightRequest="100"/>
+
+                    <Label Text="Nombre" TextColor="Black"/>
+                    <Entry Placeholder="Nombre"/>
+
+                    <Label Text="Apellido Paterno" TextColor="Black"/>
+                    <Entry Placeholder="Apellido Paterno"/>
+
+                    <Label Text="Apellido Materno" TextColor="Black"/>
+                    <Entry Placeholder="Apellido Materno"/>
+
+                    <Label Text="Rol:" TextColor="Black"/>
+                    <Picker Title="Selecciona tu rol">
+                        <Picker.Items>
+                            <x:String>Maestro</x:String>
+                            <x:String>Alumno</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Label Text="Correo electrónico" TextColor="Black"/>
+                    <Entry Placeholder="Correo electrónico" Keyboard="Email"/>
+
+                    <Label Text="Contraseña" TextColor="Black"/>
+                    <Entry Placeholder="Contraseña" IsPassword="True"/>
+
+                    <Button Text="Registrar" BackgroundColor="#4CAF50" TextColor="White" Margin="0,20,0,0"
+                            CornerRadius="20" WidthRequest="200" HeightRequest="50" Clicked="BtnRegistrar"/>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

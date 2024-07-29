@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduMaker.EditarContenido">
+
+    <StackLayout Padding="10">
+        <Label Text="Editar Título" FontSize="20" TextColor="Black" />
+        <Entry x:Name="entryTitulo" Placeholder="Ingrese el nuevo título" />
+
+        <Label Text="Editar Números" FontSize="20" TextColor="Black" />
+        <Editor x:Name="editorNumeros" Placeholder="Ingrese los números separados por comas" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="Guardar" BackgroundColor="Black" TextColor="White" Clicked="OnGuardarClicked" />
+            <Button Text="Cancelar" BackgroundColor="Black" TextColor="White" Clicked="OnCancelarClicked" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

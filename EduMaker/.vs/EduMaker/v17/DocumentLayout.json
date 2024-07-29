@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AppEduMaker\\EduMaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A141E933-DD77-480D-AAF1-970B3F2D57EE}|EduMaker\\EduMaker.csproj|c:\\appedumaker\\edumaker\\edumaker\\registro.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A141E933-DD77-480D-AAF1-970B3F2D57EE}|EduMaker\\EduMaker.csproj|solutionrelative:edumaker\\registro.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A141E933-DD77-480D-AAF1-970B3F2D57EE}|EduMaker\\EduMaker.csproj|c:\\appedumaker\\edumaker\\edumaker\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A141E933-DD77-480D-AAF1-970B3F2D57EE}|EduMaker\\EduMaker.csproj|solutionrelative:edumaker\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registro.xaml",
+              "DocumentMoniker": "C:\\AppEduMaker\\EduMaker\\EduMaker\\Registro.xaml",
+              "RelativeDocumentMoniker": "EduMaker\\Registro.xaml",
+              "ToolTip": "C:\\AppEduMaker\\EduMaker\\EduMaker\\Registro.xaml",
+              "RelativeToolTip": "EduMaker\\Registro.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T23:16:45.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\AppEduMaker\\EduMaker\\EduMaker\\MainPage.xaml",
+              "RelativeDocumentMoniker": "EduMaker\\MainPage.xaml",
+              "ToolTip": "C:\\AppEduMaker\\EduMaker\\EduMaker\\MainPage.xaml",
+              "RelativeToolTip": "EduMaker\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T23:16:19.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

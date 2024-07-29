@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduMaker.Secuencias">
+
+    <!-- ToolbarItems -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menú" Order="Primary" Priority="0" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+    
+    <!-- Contenido de la página -->
+    <Grid>
+        <Image Source="maestro.png" Aspect="AspectFill" Opacity="0.9" />
+    </Grid>
+</ContentPage>

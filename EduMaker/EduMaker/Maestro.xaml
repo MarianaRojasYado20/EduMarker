@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduMaker.Maestro">
+
+    <!-- ToolbarItems -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menú" Order="Primary" Priority="0" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+
+    <!-- Contenido de la página -->
+    <Grid>
+        <Image Source="maestro.png" Aspect="AspectFill" Opacity="0.9" />
+
+        <StackLayout Padding="10">
+
+            <!-- Contenedor blanco con introducción y título -->
+            <Frame BackgroundColor="White" 
+                   CornerRadius="10" 
+                   HasShadow="True" 
+                   Padding="10" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="FillAndExpand">
+
+                <StackLayout>
+                    <!-- Título -->
+                    <Label Text="¡Bienvenido a nuestra aplicación educativa de videojuegos!" 
+                           FontSize="20" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Start" 
+                           Margin="0,20,0,10" />
+
+                    <!-- Introducción -->
+                    <Label Text="Aquí encontrarás una plataforma intuitiva y accesible que te permite crear y editar fácilmente plantillas personalizables de diferentes juegos. Nuestro objetivo es proporcionarte a ti como docente herramientas digitales que te permitan desarrollar material didáctico adaptado a las necesidades individuales de cada alumno. Con una variedad de opciones de juego y niveles de dificultad, podrás personalizar la enseñanza y fomentar el aprendizaje interactivo y comprometido. ¡Empieza a explorar y descubre cómo mejorar la eficiencia en la enseñanza individualizada de tus alumnos!" 
+                           TextColor="Black" 
+                           FontSize="12" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Contenedor blanco con plantillas -->
+            <Frame BackgroundColor="White" 
+                   CornerRadius="10" 
+                   HasShadow="True" 
+                   Padding="10" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="FillAndExpand" 
+                   Margin="0,20,0,0">
+
+                <StackLayout>
+                    <!-- Título -->
+                    <Label Text="Plantillas" 
+                           FontSize="20" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Start" 
+                           Margin="0,20,0,10" />
+
+                    <!-- Imágenes y títulos en forma de catálogo -->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <StackLayout HorizontalOptions="Center" Padding="10">
+                            <Image Source="plantilla1.png" WidthRequest="100" HeightRequest="100">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnMemoramaTapped"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Memorama" HorizontalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" Padding="10">
+                            <Image Source="plantilla2.png" WidthRequest="100" HeightRequest="100">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnSecuenciasTapped"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Secuencia númerica" HorizontalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
